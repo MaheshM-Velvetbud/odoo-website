@@ -3,7 +3,7 @@ import React from 'react';
 const Example = () => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           <svg
             viewBox="0 0 1024 1024"
@@ -40,7 +40,7 @@ const Example = () => {
           <div className="relative mt-16 h-80 lg:mt-8">
             <img
               alt="App screenshot"
-              src="https://tailwindui.com/plus/img/component-images/dark-project-app-screenshot.png"
+              src="https://c1.wallpaperflare.com/preview/115/744/886/implement-do-implementation-project.jpg"
               width={1824}
               height={1080}
               className="absolute top-0 left-0 w-[57rem] max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
