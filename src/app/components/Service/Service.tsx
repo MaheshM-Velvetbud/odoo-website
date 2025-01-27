@@ -28,6 +28,16 @@ const CarouselDemo = () => {
 
   return (
     <div className="relative overflow-hidden w-full h-full py-20">
+         <div className="mx-auto max-w-2xl lg:text-center pb-12">
+        
+          <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
+            Everything you need to deploy your app
+          </p>
+          <p className="mt-6 text-lg/8 text-gray-600">
+            Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
+            pulvinar et feugiat blandit at. In mi viverra elit nunc.
+          </p>
+        </div>
       <Carousel slides={slideData} />
     </div>
   );
