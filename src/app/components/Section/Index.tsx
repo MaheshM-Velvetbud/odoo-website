@@ -19,11 +19,11 @@ const Example = () => {
             </defs>
           </svg>
           <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-            <h2 className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
-              Boost your productivity. Start using our app today.
+            <h2 className="text-3xl font-semibold tracking-tight text-balance text-white sm:text-3xl">
+              Seamless Odoo Implementation for Business Growth
             </h2>
             <p className="mt-6 text-lg/8 text-pretty text-gray-300">
-              Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.
+            From initial setup to tailored configurations, we ensure a smooth and efficient implementation process that streamlines operations and drives productivity
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
               <a

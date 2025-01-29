@@ -10,7 +10,7 @@ interface BlockInTextCardProps {
 
 const Example = () => {
   return (
-    <div className="flex items-center justify-center bg-neutral-100 px-8 py-12 text-neutral-800 rounded-3xl border border-black">
+    <div className="flex items-center justify-center bg-neutral-200 px-8 py-12 text-neutral-800 rounded-3xl border border-black">
       <BlockInTextCard
         tag="/ Support"
         text={
@@ -42,7 +42,7 @@ const BlockInTextCard: React.FC<BlockInTextCardProps> = ({ tag, text, examples }
         <Typewrite examples={examples} />
         <hr className="border-neutral-300" />
       </div>
-      <button className="w-full rounded-full border border-neutral-950 py-2 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100">
+      <button className="w-32 rounded-full border border-neutral-950 py-2 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100">
         Contact Support
       </button>
     </div>

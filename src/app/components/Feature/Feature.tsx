@@ -1,64 +1,56 @@
 import React from 'react';
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  FingerPrintIcon,
-  LockClosedIcon,
+  ServerIcon,
+  WrenchScrewdriverIcon,
+  BuildingLibraryIcon,
+  ChartPieIcon,
 } from '@heroicons/react/24/outline';
-
 const features = [
   {
-    name: 'Push to deploy',
+    name: 'Advanced Integration Services',
     description:
-      'Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.',
-    icon: CloudArrowUpIcon,
+      'Connect your existing tools and systems effortlessly with Odoo Enterprise. Our integration services ensure smooth data flow across all your business platforms',
+    icon:ServerIcon,
   },
   {
-    name: 'SSL certificates',
+    name: 'Custom Software Development',
     description:
-      'Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.',
-    icon: LockClosedIcon,
+      'Tailor your software to meet your specific business needs. From modules to workflows, we create solutions that fit your unique goals',
+    icon: WrenchScrewdriverIcon
   },
   {
-    name: 'Simple queues',
+    name: 'ERP Implementation',
     description:
-      'Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.',
-    icon: ArrowPathIcon,
+      'Streamline operations with Odoo’s robust ERP capabilities. We’ll help you implement and optimize the perfect solution for your business',
+    icon:  BuildingLibraryIcon,
   },
   {
-    name: 'Advanced security',
+    name: 'User-Friendly Dashboards',
     description:
-      'Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.',
-    icon: FingerPrintIcon,
+      'Empower your team with intuitive, data-driven dashboards that provide real-time insights for smarter decision-making',
+    icon: ChartPieIcon,
   },
 ];
 
 const Example = () => {
   return (
 <div
-  className="bg-black py-24 sm:py-32"
-  style={{
-    backgroundImage: 'url("https://img.freepik.com/free-photo/stylish-blue-abstract-background-with-text-space_1017-46766.jpg?t=st=1737972892~exp=1737976492~hmac=415fd5eacfb24fad7ac9d99c45e7a63e77ae17ccfbf9efd6694e9af1630ac91d&w=1060")',
-    backgroundSize: 'cover', // Adjust size as needed
-    backgroundPosition: 'center', // Adjust position as needed
-  }}
->
+  className="bg-black py-24 sm:py-32 rounded-3xl">
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl lg:text-center">
-      <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl lg:text-balance">
-        Everything you need to deploy your app
+      <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-400 sm:text-5xl lg:text-balance">
+       Transformative Features with Odoo ERP
       </p>
       <p className="mt-6 text-lg/8 text-gray-600">
-        Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum
-        pulvinar et feugiat blandit at. In mi viverra elit nunc.
+        Explore the advanced features that redefine how businesses operate
       </p>
     </div>
     <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
       <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
         {features.map((feature) => (
           <div key={feature.name} className="relative pl-16">
-            <dt className="text-base/7 font-semibold text-gray-900">
-              <div className="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
+            <dt className="text-base/7 font-semibold text-gray-400">
+              <div className="absolute top-0 left-0 flex size-10 items-center justify-center rounded-lg bg-yellow-900">
                 <feature.icon aria-hidden="true" className="size-6 text-white" />
               </div>
               {feature.name}
