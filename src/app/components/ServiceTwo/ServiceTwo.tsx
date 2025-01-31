@@ -33,7 +33,7 @@ const HeaderSection = () => {
       <h4 className="text-3xl lg:text-4xl lg:leading-tight max-w-5xl mx-auto text-center tracking-tight font-medium text-black ">
            Data driven solutions for 
 {" "}
-            <span className="text-yellow-900 font-bold">odoo</span>
+            <span className="text-yellow-900 font-bold">ERP</span>
           </h4>
            <p className="text-sm lg:text-base max-w-2xl my-4 mx-auto text-neutral-500 text-center font-normal">
            Leverage data-driven insights with Odoo to make informed decisions, optimize operations, and unlock the full potential of your business through intelligent analytics and tailored solutions

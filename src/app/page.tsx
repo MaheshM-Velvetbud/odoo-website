@@ -15,10 +15,11 @@ const page = () => {
     <div>
       <Header/>
 <Hero/>
+<Service/>
 <Section/>
 <Feature/>
-<Service/>
 <ServiceTwo/>
+
 <Aboutone/>
 <div className='py-12'><Card/></div>
 

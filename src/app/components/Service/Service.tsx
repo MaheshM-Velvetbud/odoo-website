@@ -30,13 +30,16 @@ interface GridPatternProps {
   className?: string; // Add this line to include className
 }
 
+
+
+
 // FeaturesSectionDemo Component
 const FeaturesSectionDemo = () => {
   return (
     <div>
         <div className="mx-auto max-w-2xl lg:text-center pt-12">
       <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-700 sm:text-5xl lg:text-balance">
-       Unleashing the Power of Data and <span className="text-yellow-900"> Odoo Customization </span> 
+       Unleashing the Power of Data and <span className="text-yellow-900"> Erp Customization </span> 
       </p>
       <p className="mt-6 text-lg/8 text-gray-600">
       Transform your business operations with advanced database optimization, seamless Odoo customization, and cutting-edge data engineering solutions. From performance tuning to custom reporting and secure database migrations

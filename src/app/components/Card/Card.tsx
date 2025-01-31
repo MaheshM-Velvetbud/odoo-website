@@ -15,15 +15,14 @@ const Example = () => {
         tag="/ Support"
         text={
           <>
-            <strong>Have questions?</strong> We love to help! Contact support
-            for any issue you may face.
+            <strong>Get in Touch with Us ?</strong>  Whether you have a question, need support, or want to collaborate, feel free to reach out
           </>
         }
         examples={[
-          "Does your product work for SMBs?",
-          "Can I pause my membership without losing my data?",
-          "How does seat-based pricing work?",
-          "What's the meaning of life?",
+          "Send Us a Message",
+          "Our Location",
+          "slaes@velvetbud.in",
+          
         ]}
       />
     </div>
@@ -42,8 +41,14 @@ const BlockInTextCard: React.FC<BlockInTextCardProps> = ({ tag, text, examples }
         <Typewrite examples={examples} />
         <hr className="border-neutral-300" />
       </div>
-      <button className="w-32 rounded-full border border-neutral-950 py-2 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100">
-        Contact Support
+      <button className="">
+      <a
+  href="mailto:support@yourdomain.com"
+  className="w-32 rounded-full border border-neutral-950 py-2 text-sm font-medium transition-colors hover:bg-neutral-950 hover:text-neutral-100 flex items-center justify-center"
+>
+  Contact Support
+</a>
+
       </button>
     </div>
   );

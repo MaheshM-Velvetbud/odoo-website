@@ -73,7 +73,7 @@ const Header = () => {
                 className={`header-logo block w-full ${sticky ? "py-2 lg:py-2" : "py-8"}`}
               >
                 <Image
-                  src="/Images/logo.png"
+                  src="/Images/logo2.png"
                   alt="WOOD"
                   width={350}
                   height={60}

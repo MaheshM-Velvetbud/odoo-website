@@ -39,7 +39,7 @@ const Example = () => {
   <div className="mx-auto max-w-7xl px-6 lg:px-8">
     <div className="mx-auto max-w-2xl lg:text-center">
       <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-400 sm:text-5xl lg:text-balance">
-       Transformative Features with Odoo ERP
+       Transformative Features with  ERP
       </p>
       <p className="mt-6 text-lg/8 text-gray-600">
         Explore the advanced features that redefine how businesses operate

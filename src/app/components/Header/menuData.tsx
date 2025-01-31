@@ -1,13 +1,6 @@
 import { Menu } from "../../types/menu";
 
 const menuData: Menu[] = [
-  // {
-  //   id: 1,
-  //   title: "Home",
-  //   path: "/",
-  //   sectionId:"home",
-  //   newTab: false,
-  // },
 
 
  
@@ -15,7 +8,7 @@ const menuData: Menu[] = [
     id: 8,
     title: "Home",
     path: "/" ,
-    sectionId:"aboutone",
+    sectionId:"home",
     newTab: false,
   },
 
@@ -24,8 +17,8 @@ const menuData: Menu[] = [
 {
     id: 8,
     title: "Services",
-    path: "/about" ,
-    sectionId:"aboutone",
+    path: "/service" ,
+    sectionId:"home",
     newTab: false,
   },
 
@@ -45,7 +38,7 @@ const menuData: Menu[] = [
   {
     id: 6,
     title: "Contact Us",
-    path: "/consulting" ,
+    path: "/contact" ,
     sectionId:"aboutone",
     newTab: false,
   },
