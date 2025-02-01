@@ -30,7 +30,7 @@ const Example = () => {
           </div>
           <div className="text-center">
             <h1 className="text-5xl font-semibold tracking-tight text-balance text-yellow-900 sm:text-6xl">
-             Empowering Businesses with EPR  Solutions
+             Empowering Businesses with ERP  Solutions
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
              Seamlessly integrate, innovate, and grow your business with tailored Odoo Enterprise solutions designed to streamline operations and boost productivity
