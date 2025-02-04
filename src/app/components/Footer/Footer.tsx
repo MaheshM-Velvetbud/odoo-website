@@ -7,10 +7,10 @@ import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs';
 const Footer = () => {
   return (
     <div className="container mx-auto my-1">
-      <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-10 px-12 py-2 rounded-3xl items-center justify-center ">
+      <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-1 px-12 py-2 rounded-3xl items-center justify-center ">
         <div className="flex flex-col items-center lg:items-start gap-5">
-          <img src="/images/logo2.png" alt="footer lgo" className="h-32 w-32" />
-          {/* <p className="text-center lg:text-start">adress .......................cd </p> */}
+          <img src="/Images/logo2.png" alt="footer lgo" className="h-32 w-32" />
+           <p className="text-center lg:text-start">1962 VADAKKE VEEDU SASTHAMANGALAM Thiruvananthapuram Kerala 695010 </p>
         </div>
         <div className="flex flex-col items-center lg:items-start gap-2">
           <p className="text-xl font-medium">Company</p>
