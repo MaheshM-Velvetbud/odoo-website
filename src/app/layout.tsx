@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Odoo-website",
+  title: "Vbuds",
   description: "Static website",
 };
 
