@@ -14,8 +14,8 @@ const Example = () => {
             <circle r={512} cx={512} cy={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
             <defs>
               <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" />
+                <stop stopColor="#070701ff" />
+                <stop offset={1} stopColor="#b9b9b3ff" />
               </radialGradient>
             </defs>
           </svg>

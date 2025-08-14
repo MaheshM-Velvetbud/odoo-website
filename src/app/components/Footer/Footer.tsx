@@ -123,7 +123,7 @@ const FooterSection = () => {
         </motion.div>
         <motion.div
           variants={itemVariants}
-          className="mt-8 flex justify-center gap-8"
+          className="mt-0 flex justify-center gap-8"
         >
           <motion.a
             href="https://facebook.com"
